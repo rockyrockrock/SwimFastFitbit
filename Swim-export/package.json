@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.0"
+  },
+  "fitbit": {
+    "appUUID": "dbd4557a-637b-45ea-9f35-bf44b5ec8edb",
+    "appType": "app",
+    "appDisplayName": "Swim",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#f44336",
+    "requestedPermissions": [
+      "access_activity",
+      "access_user_profile",
+      "access_heart_rate",
+      "access_location",
+      "access_internet",
+      "run_background",
+      "access_exercise",
+      "access_calendar",
+      "access_sleep"
+    ],
+    "buildTargets": [
+      "atlas"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Swim"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
