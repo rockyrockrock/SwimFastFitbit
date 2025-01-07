@@ -1,1 +1,4 @@
-"# SwimFastFitbit" 
+# SwimFastFitbit
+The Fitbit app was developed using JavaScript in studio.fitbit.com. Fitbit studio was used to build the app and install it to the connected devices (Fitbit and its companion cell phone). This Swim Fitbit app is based on an open source code, Fitbit Activity Recorder (GitHub, 2020). It originally can only record accelerometer data. Collecting heart rate data has been added to study endurance. Other features are also added to support the study of swim techniques. A stroke type can be selected from free, back, breast, and butterfly, so that the collected data are tagged with the type of stroke. The sampling frequency can be tuned to improve the sensitivity. The data flow is shown in the figure below. The raw sensor data is first sent to the companion cell phone. The cell phone then uploads the data to a backend server, backend.py - a Python program running a Flask web server. The backend server parses the received sensor data and saves it in a CSV file. Finally, the collected CSV files are analyzed with the Jupyter Notebook. 
+
+![FitbitAppDataFlow](https://github.com/user-attachments/assets/eb228a8d-6918-47c1-a127-195270e6e950)
